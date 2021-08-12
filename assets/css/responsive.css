@@ -1,0 +1,189 @@
+@media only screen and (max-width: 1024px) {
+    .navbar .mega-dropdown .dropdown-menu.mega-menu {
+        max-height: 300px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .navbar .mega-dropdown .dropdown-menu.mega-menu {
+        width: 100%!important;
+        border: none;
+        border-radius: 0;
+        left: 0;
+    }
+
+}
+@media only screen and (max-width: 1200px) {
+    .navbar .mega-dropdown .dropdown-menu.mega-menu {
+        width: 100%!important;
+        border: none;
+        border-radius: 0;
+        left: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+@media only screen and (max-width: 991px) {
+
+    .header-area .hero-head-area .slider .caption h1 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 23px;
+    }
+    .header-area .hero-head-area .slider .caption .caption h2 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .header-area .hero-head-area .slider .caption .course-area {
+        margin-top: 70px;
+    }
+    .header-area .hero-head-area .slider .caption .section-title .main-title {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 25px;
+
+    }
+    .header-area .hero-head-area .slider .caption .course-area .single-course .course-content .title-inner {
+        font-size: 20px;
+        height: 120px;
+    }
+
+    .hero-banner {
+        margin-top: 75px;
+    }
+    .blog .sidebar {
+        margin: 0 0 60px;
+    }
+    iframe {
+        height: 300px!important;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px) {
+
+    .header-area .hero-head-area .slider .carousel-inner .carousel-item .caption h1 {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 23px;
+    }
+    .header-area .hero-head-area .slider .carousel-inner .carousel-item .caption .caption h2 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .header-area .hero-head-area .slider .carousel-inner .carousel-item .caption .course-area {
+        margin-top: 50px;
+    }
+    .header-area .hero-head-area .slider .caption .carousel-inner .carousel-item .section-title .main-title {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+
+    }
+    .header-area .hero-head-area .slider .caption .course-area .single-course .course-content .title-inner {
+        font-size: 20px;
+        height: 120px;
+    }
+    .footer-bar {
+        text-align: center!important;
+        padding-bottom: 10px;
+    }
+
+    .copy-left {
+        float: none;
+    }
+
+    .blog .entry .entry-img {
+        max-height: 300px;
+        margin: -20px -20px 20px;
+        overflow: hidden;
+    }
+    /* iframe {
+        height: 400px!important;
+        width: 100%; 
+    }*/
+}
+@media only screen and (max-width: 576px) {
+
+    .course-area {
+        margin-top: 50px;
+    }
+
+    .section-title {
+        margin-bottom: 50px;
+    }
+
+    .section-title .sub-title {
+        color: var(--color-green);
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 20px;
+
+    }
+
+    .section-title .main-title {
+        margin: 10px 0;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 25px;
+        color: var(--color-dark-blue);
+    }
+
+    .course-area .single-course .course-content .title-inner {
+        font-size: 22px;
+        height: 120px;
+    }
+
+    .about-subtitle p {
+        max-width: 50%;
+    }
+    iframe {
+        height: 250px!important;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    .course-area .single-course .course-content .title-inner {
+        font-size: 16px;
+        height: 140px;
+    }
+
+    .user-info .info-single {
+        padding: 5px 0;
+    }
+
+    .user-info .info-single i {
+        font-size: 16px;
+        color: var(--color-green);
+    }
+
+    .user-info .info-single span {
+        font-size: 15px;
+        color: var(--color-dark-blue);
+        font-weight: 500;
+        margin: 0 5px;
+    }
+
+    .user-info .info-single h6 {
+        color: var(--color-secondary);
+        font-size: 15px;
+        margin: 0 5px;
+    }
+
+    .nav-tabs .nav-item {
+        color: var(--color-dark-blue);
+        font-size: 14px;
+        font-weight: 400;
+        width: calc(100%/3);
+    }
+    #tabs .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
